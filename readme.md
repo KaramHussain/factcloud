@@ -1,7 +1,7 @@
 # Terraform API Gateway & Lambda Deployment
 
 ## Overview
-
+![alt text](apilambda.drawio.png)
 This Terraform configuration sets up an AWS API Gateway and Lambda function. The API Gateway is configured with an HTTP endpoint that triggers a Lambda function, which returns a random cloud-related quote along with the current UTC timestamp.
 
 The setup consists of two Terraform modules:
